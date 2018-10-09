@@ -1,14 +1,14 @@
 <%= stylesheet_link_tag "show_view/text", :media => "all" %>
 
-<h1>New Article</h1>
+<h1 class = "heading">New Article</h1>
 
 <%= form_with scope: :article, url: articles_path,local: true do |form| %>
-  <p>
+  <p class = "content">
     <%= form.label :title %><br>
     <%= form.text_field :title %>
   </p>
 
-  <p>
+  <p class = "content">
     <%= form.label :text %><br>
     <%= form.text_area :text %>
   </p>

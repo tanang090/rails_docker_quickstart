@@ -13,3 +13,4 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # folder are already added.
 Rails.application.config.assets.precompile += %w( show_view/answer)
 Rails.application.config.assets.precompile += %w( show_view/text)
+Rails.application.config.assets.precompile += %w( jquery.particleground.min.js demo.js)
